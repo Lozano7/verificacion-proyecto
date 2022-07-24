@@ -31,7 +31,7 @@ import javax.swing.table.DefaultTableModel;
  * se desarrollo  por otro compa�ero en el curso de Construccion de Software.
  * 
  * @version 1.0.2
- * @author Eileen, Darwin Rodriguez
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class ControlPersona {
 

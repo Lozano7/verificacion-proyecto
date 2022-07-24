@@ -21,9 +21,9 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author Eileen
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class PersonaDB implements Crud {
 	private Connection connector;
 	private PreparedStatement statement;

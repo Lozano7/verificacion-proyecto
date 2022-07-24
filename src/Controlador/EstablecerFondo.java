@@ -16,9 +16,11 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 /**
- * Clase para establecer una Imagen de Fondo en cada Frame
- *
- * @author John
+ * Esta clase contiene los m�todos para poder ejecutar el CRUD del proyecto que
+ * se desarrollo  por otro compa�ero en el curso de Construccion de Software.
+ * 
+ * @version 1.0.2
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class EstablecerFondo extends JPanel {
 

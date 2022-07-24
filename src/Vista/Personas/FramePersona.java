@@ -71,7 +71,7 @@ public class FramePersona extends javax.swing.JFrame {
         );
 
         btnRegistrarArb.setFont(new java.awt.Font("Berlin Sans FB", 0, 24)); // NOI18N
-        btnRegistrarArb.setText("Registrar Árbitro");
+        btnRegistrarArb.setText("Registrar Arbitro");
         btnRegistrarArb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegistrarArbActionPerformed(evt);
@@ -79,7 +79,7 @@ public class FramePersona extends javax.swing.JFrame {
         });
 
         btnModificarArb.setFont(new java.awt.Font("Berlin Sans FB", 0, 24)); // NOI18N
-        btnModificarArb.setText("Modificar Árbitro");
+        btnModificarArb.setText("Modificar Arbitro");
         btnModificarArb.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnModificarArbActionPerformed(evt);
@@ -87,7 +87,7 @@ public class FramePersona extends javax.swing.JFrame {
         });
 
         btnEliminarArbitro.setFont(new java.awt.Font("Berlin Sans FB", 0, 24)); // NOI18N
-        btnEliminarArbitro.setText("Eliminar Árbitro");
+        btnEliminarArbitro.setText("Eliminar Arbitro");
         btnEliminarArbitro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarArbitroActionPerformed(evt);

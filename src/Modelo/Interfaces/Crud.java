@@ -2,7 +2,7 @@
 /*
  * CRUD
  * 
- *@version 1.0.2
+ * @version 1.0.2
  * 
  * 23 JUL 2022
  * 
@@ -14,10 +14,9 @@ package Modelo.Interfaces;
 import java.util.List;
 
 /**
- * Interfaz con los Métodos CRUD
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public interface Crud {
 
 	/**

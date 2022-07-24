@@ -12,9 +12,9 @@ package Modelo.Simples;
 import Modelo.Compuestas.Persona;
 
 /**
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class Arbitro extends Persona {
 
     private int partidosArbitrados;

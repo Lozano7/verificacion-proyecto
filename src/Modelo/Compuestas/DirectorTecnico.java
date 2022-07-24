@@ -10,9 +10,7 @@
 package Modelo.Compuestas;
 
 /**
- * Clase para Administrar un Director Técnico
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class DirectorTecnico {
 

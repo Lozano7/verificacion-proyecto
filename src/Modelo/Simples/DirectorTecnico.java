@@ -13,8 +13,8 @@ package Modelo.Simples;
 import Modelo.Compuestas.Persona;
 
 /**
- *
- * @author John
+ * 
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class DirectorTecnico extends Persona {
 

@@ -31,8 +31,8 @@ public class FrameLogin extends javax.swing.JFrame {
         panelCentral = new javax.swing.JPanel();
         lblUsuario = new javax.swing.JLabel();
         txtUsuario = new javax.swing.JTextField();
-        lblContraseña = new javax.swing.JLabel();
-        txtContraseña = new javax.swing.JTextField();
+        lblContrasenia = new javax.swing.JLabel();
+        txtContrasenia = new javax.swing.JTextField();
         btnIngresar = new javax.swing.JButton();
         lblPuerto = new javax.swing.JLabel();
         cbPuerto = new javax.swing.JComboBox<>();
@@ -62,15 +62,15 @@ public class FrameLogin extends javax.swing.JFrame {
             }
         });
 
-        lblContraseña.setFont(new java.awt.Font("Berlin Sans FB", 0, 24)); // NOI18N
-        lblContraseña.setForeground(new java.awt.Color(236, 239, 244));
-        lblContraseña.setText("Contraseña:");
+        lblContrasenia.setFont(new java.awt.Font("Berlin Sans FB", 0, 24)); // NOI18N
+        lblContrasenia.setForeground(new java.awt.Color(236, 239, 244));
+        lblContrasenia.setText("Contraseña:");
 
-        txtContraseña.setFont(new java.awt.Font("Berlin Sans FB", 0, 18)); // NOI18N
-        txtContraseña.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txtContraseña.addActionListener(new java.awt.event.ActionListener() {
+        txtContrasenia.setFont(new java.awt.Font("Berlin Sans FB", 0, 18)); // NOI18N
+        txtContrasenia.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txtContrasenia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtContraseñaActionPerformed(evt);
+                txtContraseniaActionPerformed(evt);
             }
         });
 
@@ -111,12 +111,12 @@ public class FrameLogin extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(lblUsuario)
-                    .addComponent(lblContraseña)
+                    .addComponent(lblContrasenia)
                     .addComponent(lblPuerto))
                 .addGap(33, 33, 33)
                 .addGroup(panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(txtUsuario)
-                    .addComponent(txtContraseña)
+                    .addComponent(txtContrasenia)
                     .addComponent(cbPuerto, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(87, 87, 87))
             .addGroup(panelCentralLayout.createSequentialGroup()
@@ -135,8 +135,8 @@ public class FrameLogin extends javax.swing.JFrame {
                     .addComponent(lblUsuario))
                 .addGap(18, 18, 18)
                 .addGroup(panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(lblContraseña)
-                    .addComponent(txtContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblContrasenia)
+                    .addComponent(txtContrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(cbPuerto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -173,7 +173,7 @@ public class FrameLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtUsuarioActionPerformed
 
-    private void txtContraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseñaActionPerformed
+    private void txtContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtContraseñaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtContraseñaActionPerformed
 
@@ -184,7 +184,7 @@ public class FrameLogin extends javax.swing.JFrame {
 
     private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
         // TODO add your handling code here:
-        Conexion.iniciarDatos(txtUsuario.getText(), txtContraseña.getText());
+        Conexion.iniciarDatos(txtUsuario.getText(), txtContrasenia.getText());
         if (Conexion.establecerConexion() != null) {
             FrameOpciones opcion = new FrameOpciones();
             opcion.setVisible(true);
@@ -197,12 +197,12 @@ public class FrameLogin extends javax.swing.JFrame {
     private javax.swing.JButton btnSalir;
     private javax.swing.JComboBox<String> cbPuerto;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel lblContraseña;
+    private javax.swing.JLabel lblContrasenia;
     private javax.swing.JLabel lblPuerto;
     private javax.swing.JLabel lblUsuario;
     private javax.swing.JPanel panelCentral;
     private javax.swing.JPanel panelSuperior;
-    private javax.swing.JTextField txtContraseña;
+    private javax.swing.JTextField txtContrasenia;
     private javax.swing.JTextField txtUsuario;
     private javax.swing.JPanel título;
     // End of variables declaration//GEN-END:variables

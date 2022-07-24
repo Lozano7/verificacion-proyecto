@@ -14,7 +14,7 @@ import Vista.Login.FrameLogin;
 /**
  * Clase de Ejecución
  *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class Main {
 

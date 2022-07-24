@@ -22,10 +22,9 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- * Clase para Administrar un Director Técnico en la Base de Datos
- *
- * @author Eileen
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class DirectorDB implements Crud {
 
     private Connection connector;

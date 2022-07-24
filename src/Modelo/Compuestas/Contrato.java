@@ -16,9 +16,7 @@ import Modelo.Simples.Estado;
 import java.util.Date;
 
 /**
- * Clase para envíar los datos del Contrato a la Base de Datos
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class Contrato {
 

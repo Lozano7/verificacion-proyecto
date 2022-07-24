@@ -22,9 +22,9 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class EquipoDB implements Crud {
 
     private Connection connector;

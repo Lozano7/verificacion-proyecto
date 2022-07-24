@@ -45,7 +45,7 @@ public class EliminarArbitro extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(236, 239, 244));
-        jLabel1.setText("Eliminar Árbitro");
+        jLabel1.setText("Eliminar Arbitro");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

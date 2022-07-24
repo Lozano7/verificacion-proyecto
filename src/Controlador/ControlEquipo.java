@@ -19,9 +19,11 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 /**
- * Clase para preparar los datos del Equipo a la Base de Datos
- *
- * @author Lozano
+ * Esta clase contiene los m�todos para poder ejecutar el CRUD del proyecto que
+ * se desarrollo  por otro compa�ero en el curso de Construccion de Software.
+ * 
+ * @version 1.0.2
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class ControlEquipo {
 

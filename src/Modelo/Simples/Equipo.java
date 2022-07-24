@@ -11,9 +11,8 @@
 package Modelo.Simples;
 
 /**
- * Clase Básica de Equipo
- *
- * @author John
+ * 
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public class Equipo {
 

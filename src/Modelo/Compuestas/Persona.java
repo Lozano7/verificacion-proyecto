@@ -10,9 +10,9 @@
 package Modelo.Compuestas;
 
 /**
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class Persona {
 
     protected String cedula;

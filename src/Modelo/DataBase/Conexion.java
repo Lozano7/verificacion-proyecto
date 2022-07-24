@@ -17,10 +17,9 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- * Clase para Administrar la Conexión con la Base de Datos
- *
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
+
 public class Conexion {
 
     private static final String DATABASEURL = "jdbc:oracle:thin:@localhost:1521:XE";

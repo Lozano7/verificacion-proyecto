@@ -57,7 +57,7 @@ public class RegistrarArbitro extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(236, 239, 244));
-        jLabel1.setText("REGISTRO ÁRBITRO");
+        jLabel1.setText("REGISTRO ARBITRO");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

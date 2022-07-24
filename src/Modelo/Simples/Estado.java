@@ -10,7 +10,7 @@ package Modelo.Simples;
 
 /**
  * Enum para asignar un Estado al Contrato
- * @author John
+ * @author Eileen, Darwin Rodriguez, Anthony Lozano
  */
 public enum Estado {
 
